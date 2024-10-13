@@ -1,0 +1,34 @@
+{
+    "patient_info": {
+        "name": "Maria Souza",
+        "age": 45,
+        "gender": "female",
+        "patient_id": "P12345"
+    },
+    "medical_history": [
+        {
+            "condition": "Diabetes",
+            "diagnosed_date": "2015-06-20",
+            "status": "Under control"
+        },
+        {
+            "condition": "Hypertension",
+            "diagnosed_date": "2018-11-15",
+            "status": "Managed with medication"
+        }
+    ],
+    "consultations": [
+        {
+            "date": "2024-09-10",
+            "doctor": "Dr. João Silva",
+            "symptoms": "Headache, dizziness",
+            "diagnosis": "Migraine"
+        },
+        {
+            "date": "2024-10-05",
+            "doctor": "Dr. Ana Oliveira",
+            "symptoms": "Fatigue, blurred vision",
+            "diagnosis": "Hypoglycemia"
+        }
+    ]
+}
