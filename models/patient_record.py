@@ -1,8 +1,8 @@
 class PatientRecord:
     def __init__(self, patient_info, medical_history, consultations):
-        self.patient_info = patient_info  # Instância de PatientInfo
-        self.medical_history = medical_history  # Lista de MedicalHistory
-        self.consultations = consultations  # Lista de Consultation
+        self.patient_info = patient_info  # instância de PatientInfo
+        self.medical_history = medical_history  # lista de MedicalHistory
+        self.consultations = consultations  # lista de Consultation
 
     def __repr__(self):
         return f"PatientRecord(info={self.patient_info}, history={self.medical_history}, consultations={self.consultations})"
