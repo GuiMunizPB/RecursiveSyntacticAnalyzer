@@ -31,7 +31,7 @@ https://docs.python.org/3/library/re.html
 
 Utilizando o lexer da primeira parte do projeto,  o Analisador Sintático irá usar os tokens produzidos para determinar a estrutura sintática da entrada, de acordo com a gramática da linguagem. 
 
-Após a validação, o JSON será transformado em uma estrutura de dados na forma de objetos Python, como PatientRecord, PatientInfo, MedicalHistory, e Consultation. Essa conversão facilitará o acesso e a manipulação das informações, permitindo operações como consultas a histórico médico e agendamento de novas consultas.
+Após a validação, o JSON será transformado em uma estrutura de dados na forma de objetos Python, como PatientRecord, PatientInfo, MedicalHistory, e Consultation. Essa conversão facilitará o acesso e a manipulação das informações do paciente.
 
 
 ### Gramática:
